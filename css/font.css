@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "MTN Brighter Sans Regular";
+	src: url("https://db.onlinewebfonts.com/t/4baee4a2550da10078fd0d6dd9440bc1.eot");
+	src: url("https://db.onlinewebfonts.com/t/4baee4a2550da10078fd0d6dd9440bc1.eot?#iefix")format("embedded-opentype"),
+	url("https://db.onlinewebfonts.com/t/4baee4a2550da10078fd0d6dd9440bc1.woff2")format("woff2"),
+	url("https://db.onlinewebfonts.com/t/4baee4a2550da10078fd0d6dd9440bc1.woff")format("woff"),
+	url("https://db.onlinewebfonts.com/t/4baee4a2550da10078fd0d6dd9440bc1.ttf")format("truetype"),
+	url("https://db.onlinewebfonts.com/t/4baee4a2550da10078fd0d6dd9440bc1.svg#MTN Brighter Sans Regular")format("svg");
+}
+
+@font-face {
+	font-family: "MTN Brighter Sans Medium";
+	src: url("https://db.onlinewebfonts.com/t/c282f71eca28384dd18e3cd66867f612.eot");
+	src: url("https://db.onlinewebfonts.com/t/c282f71eca28384dd18e3cd66867f612.eot?#iefix")format("embedded-opentype"),
+	url("https://db.onlinewebfonts.com/t/c282f71eca28384dd18e3cd66867f612.woff2")format("woff2"),
+	url("https://db.onlinewebfonts.com/t/c282f71eca28384dd18e3cd66867f612.woff")format("woff"),
+	url("https://db.onlinewebfonts.com/t/c282f71eca28384dd18e3cd66867f612.ttf")format("truetype"),
+	url("https://db.onlinewebfonts.com/t/c282f71eca28384dd18e3cd66867f612.svg#MTN Brighter Sans Medium")format("svg");
+}
+
+@font-face {
+	font-family: "MTN Brighter Sans Bold";
+	src: url("https://db.onlinewebfonts.com/t/8bf395247829bac4c3c782ae6c989cb5.eot");
+	src: url("https://db.onlinewebfonts.com/t/8bf395247829bac4c3c782ae6c989cb5.eot?#iefix")format("embedded-opentype"),
+	url("https://db.onlinewebfonts.com/t/8bf395247829bac4c3c782ae6c989cb5.woff2")format("woff2"),
+	url("https://db.onlinewebfonts.com/t/8bf395247829bac4c3c782ae6c989cb5.woff")format("woff"),
+	url("https://db.onlinewebfonts.com/t/8bf395247829bac4c3c782ae6c989cb5.ttf")format("truetype"),
+	url("https://db.onlinewebfonts.com/t/8bf395247829bac4c3c782ae6c989cb5.svg#MTN Brighter Sans Bold")format("svg");
+}

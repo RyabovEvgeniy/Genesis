@@ -1,0 +1,71 @@
+[class*="__container"] {
+	max-width: 1235px;
+	margin: 0 auto;
+	padding: 0px 10px;
+}
+
+// Colors
+$mainColor: #fff;
+$blackColor: #000;
+
+// Botton
+.btn {
+	cursor: pointer;
+}
+// Logo
+.logo {
+}
+
+// Nav
+.nav {
+}
+
+// Body
+body {
+	// font-family: "Roboto", sans-serif;
+	// font-family: "Outfit", sans-serif;
+	font-family: "MTN Brighter Sans Regular";
+	// font-family: "MTN Brighter Sans Medium";
+	// font-family: "MTN Brighter Sans Bold";
+	background-color: $blackColor;
+	color: $mainColor;
+	font-size: 16px;
+	line-height: 1.2;
+}
+
+// Header
+.header {
+
+	// .header__container
+
+	&__container {
+	}
+
+	// .header__inner
+
+	&__inner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 105px 0 95px;
+	}
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	gap: 26px;
+
+
+	// .menu__item
+
+	&__item {
+	}
+
+	// .menu__link
+
+	&__link {
+		font-family: "Outfit", sans-serif;
+		font-size: 25px;
+	}
+}

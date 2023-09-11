@@ -1,0 +1,44 @@
+[class*=__container] {
+  max-width: 1235px;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+body {
+  font-family: "MTN Brighter Sans Regular";
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 105px 0 95px;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 26px;
+}
+.menu__link {
+  font-family: "Outfit", sans-serif;
+  font-size: 25px;
+}
