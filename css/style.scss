@@ -69,3 +69,88 @@ body {
 		font-size: 25px;
 	}
 }
+
+// hero
+.hero {
+	padding-bottom: 26px;
+
+	// .hero__container
+
+	&__container {
+	}
+
+	// .hero__inner
+
+	&__inner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	// .hero__content
+
+	&__content {
+	}
+
+	// .hero__image
+
+	&__image {
+	}
+}
+.content-hero {
+
+	// .content-hero__title
+
+	&__title {
+		font-size: 50px;
+		line-height: 0.91;
+		letter-spacing: -1px;
+		margin-bottom: 10px;
+		max-width: 495px;
+		span {
+			font-size: 50px;
+			font-weight: 700;
+			line-height: 47.5px;
+		}
+	}
+
+	// .content-hero__text
+
+	&__text {
+		font-family: "Roboto", sans-serif;
+		font-size: 20px;
+		line-height: 1.37;
+		margin-bottom: 28.15px;
+		max-width: 373px;
+	}
+
+	// .content-hero__buttons
+
+	&__buttons {
+		display: flex;
+		align-items: center;
+		gap: 51px;
+	}
+
+	// .content-hero__link
+
+	&__link {
+		color: $mainColor;
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 1.37;
+		border-radius: 10px;
+		padding: 15px 39px 14px;
+		&_pink {
+			background-color: #D50138;
+		}
+		&_transparent {
+			background-color: transparent;
+			border: 1px solid #8A8A8A;
+		}
+	}
+}
+.image-hero {
+	border-radius: 23px;
+	overflow: hidden;
+}
