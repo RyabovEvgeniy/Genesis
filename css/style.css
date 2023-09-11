@@ -94,14 +94,48 @@ body {
   padding: 15px 39px 14px;
 }
 .content-hero__link_pink {
-  background-color: #D50138;
+  background-color: #d50138;
 }
 .content-hero__link_transparent {
   background-color: transparent;
-  border: 1px solid #8A8A8A;
+  border: 1px solid #8a8a8a;
 }
 
 .image-hero {
   border-radius: 23px;
   overflow: hidden;
+}
+
+.services {
+  padding: 118px 0;
+}
+.services__title {
+  font-size: 20px;
+  line-height: 1.37;
+  text-transform: uppercase;
+  margin-bottom: 12.24px;
+}
+.services__inner {
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  padding: 20px 0;
+}
+.item-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
 }
