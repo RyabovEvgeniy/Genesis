@@ -154,6 +154,11 @@ body {
           justify-content: center;
   gap: 68px;
 }
+.pricing__image {
+  border-radius: 9px;
+  overflow: hidden;
+}
+
 .content-pricing__title {
   font-size: 36px;
   line-height: 0.98;
@@ -176,4 +181,47 @@ body {
   border-radius: 10px;
   background: #0026ff;
   padding: 15px 27px;
+}
+
+.experience {
+  padding: 105px 0;
+}
+.experience__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 89px;
+}
+.experience__image {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.content-experience__title {
+  font-size: 36px;
+  line-height: 0.98;
+  letter-spacing: -0.72px;
+  margin-bottom: 13px;
+  max-width: 400px;
+}
+.content-experience__text {
+  font-size: 17px;
+  line-height: 1.02;
+  margin-bottom: 20px;
+  max-width: 337px;
+}
+.content-experience__link {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.37;
+  padding: 14.5px 35px;
+  border-radius: 10px;
+  background-color: #7502A3;
 }

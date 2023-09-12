@@ -228,6 +228,8 @@ body {
 	// .pricing__image
 
 	&__image {
+		border-radius: 9px;
+		overflow: hidden;
 	}
 }
 .content-pricing {
@@ -269,4 +271,75 @@ body {
 	}
 }
 .image-pricing {
+}
+
+// experience
+.experience {
+	padding: 105px 0;
+
+	// .experience__container
+
+	&__container {
+	}
+
+	// .experience__inner
+
+	&__inner {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 89px;
+	}
+
+	// .experience__content
+
+	&__content {
+	}
+
+	// .experience__image
+
+	&__image {
+		border-radius: 15px;
+		overflow: hidden;
+	}
+}
+.content-experience {
+
+	// .content-experience__title
+
+	&__title {
+		font-size: 36px;
+		line-height: 0.98;
+		letter-spacing: -0.72px;
+		margin-bottom: 13px;
+		max-width: 400px;
+	}
+
+	// .content-experience__text
+
+	&__text {
+		font-size: 17px;
+		line-height: 1.02;
+		margin-bottom: 20px;
+		max-width: 337px;
+	}
+
+	// .content-experience__buttons
+
+	&__buttons {
+	}
+
+	// .content-experience__link
+
+	&__link {
+		display: inline-block;
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 1.37;
+		padding: 14.5px 35px;
+		border-radius: 10px;
+		background-color: #7502A3;
+	}
+}
+.image-experience {
 }
