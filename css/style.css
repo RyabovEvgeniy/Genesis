@@ -139,3 +139,41 @@ body {
           align-items: center;
   gap: 30px;
 }
+.pricing {
+  padding: 72px 0;
+}
+.pricing__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 68px;
+}
+.content-pricing__title {
+  font-size: 36px;
+  line-height: 0.98;
+  letter-spacing: -0.72px;
+  margin-bottom: 13px;
+  max-width: 400px;
+}
+.content-pricing__text {
+  margin-bottom: 24px;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  line-height: 1.02;
+  max-width: 373px;
+}
+.content-pricing__link {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.37;
+  border-radius: 10px;
+  background: #0026ff;
+  padding: 15px 27px;
+}
