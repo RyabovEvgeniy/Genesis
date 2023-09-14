@@ -429,3 +429,58 @@ body {
 		text-align: center;
 	}
 }
+
+// booking
+.booking {
+	padding: 55px 0;
+
+	// .booking__container
+
+	&__container {
+	}
+
+	// .booking__inner
+
+	&__inner {
+		padding: 63px 0;
+		background: url('../img/booking-bg.png') 0 0 no-repeat;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	// .booking__subtitle
+
+	&__subtitle {
+		margin-bottom: 20px;
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+
+	// .booking__title
+
+	&__title {
+		font-size: 50px;
+		font-weight: 700;
+		line-height: 0.96;
+		text-transform: capitalize;
+		margin-bottom: 32px;
+		max-width: 440px;
+		text-align: center;
+	}
+
+	// .booking__link
+
+	&__link {
+		display: inline-block;
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 1.37;
+		padding: 14px 37px 15px;
+		border-radius: 10px;
+		background-color: $mainColor;
+		color: #311B52;
+	}
+}
+
