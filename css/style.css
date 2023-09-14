@@ -17,6 +17,10 @@ body {
   line-height: 1.2;
 }
 
+.main {
+  background: url("../img/main-bg.png") 0 0 no-repeat;
+}
+
 .header__inner {
   display: -webkit-box;
   display: -ms-flexbox;
