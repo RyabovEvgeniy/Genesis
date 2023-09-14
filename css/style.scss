@@ -436,7 +436,7 @@ body {
 
 // booking
 .booking {
-	padding: 55px 0;
+	padding: 55px 0 406px;
 
 	// .booking__container
 
@@ -487,4 +487,29 @@ body {
 		color: #311B52;
 	}
 }
+
+// footer
+.footer {
+
+	// .footer__container
+
+	&__container {
+	}
+
+	// .footer__inner
+
+	&__inner {
+	}
+
+	// .footer__decor
+
+	&__decor {
+		margin-bottom: 135px;
+		width: 100%;
+		height: 2px;
+		background: rgba(152, 152, 152, 0.10);
+	}
+}
+
+
 
